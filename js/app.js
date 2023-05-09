@@ -63,7 +63,7 @@ function startApp() {
 
     const heading = document.createElement('H2');
     heading.classList.add('text-center', 'text-black', 'my-5');
-    heading.textContent = recipes.length ? 'Resultados' : 'No hay resultados';
+    heading.textContent = recipes.length ? 'Results' : 'No results';
     result.appendChild(heading);
 
     recipes.forEach((recipe) => {
@@ -179,8 +179,8 @@ function startApp() {
     const btnFavorite = document.createElement('BUTTON');
     btnFavorite.classList.add('btn', 'btn-danger', 'col');
     btnFavorite.textContent = existStorage(recipe.id)
-      ? 'Eliminar favorito'
-      : 'Guardar favorito';
+      ? 'Remove favorite'
+      : 'Save favorite';
 
     btnFavorite.onclick = () => toggleFavorite(recipe, btnFavorite);
 
@@ -204,13 +204,13 @@ function startApp() {
   function toggleFavorite(recipe, btn) {
     if (existStorage(recipe.id)) {
       deleteFavorite(recipe.id);
-      btn.textContent = 'Guardar favorito';
-      showToast('Eliminado correctamente');
+      btn.textContent = 'Save favorite';
+      showToast('Deleted successfully');
       return;
     }
     addFavorite(recipe);
-    btn.textContent = 'Eliminar favorito';
-    showToast('Agregado correctamente');
+    btn.textContent = 'Remove favorite';
+    showToast('Successfully added');
   }
 
   /**
@@ -269,7 +269,7 @@ function startApp() {
     }
 
     const noFavorites = document.createElement('P');
-    noFavorites.textContent = 'No hay favoritos aun';
+    noFavorites.textContent = 'No favorites yet';
     noFavorites.classlist.add('fs-4', 'text-center', 'font-bold', 'mt-5');
     favoritesDiv.appendChild(noFavorites);
   }
