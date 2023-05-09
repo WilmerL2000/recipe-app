@@ -88,7 +88,7 @@ function startApp() {
 
       const recipeBtn = document.createElement('BUTTON');
       recipeBtn.classList.add('btn', 'btn-danger', 'w-100');
-      recipeBtn.textContent = 'Ver receta';
+      recipeBtn.textContent = 'See recipe';
       recipeBtn.onclick = () => selectRecipe(idMeal ?? recipe.id);
 
       //Add content con html
