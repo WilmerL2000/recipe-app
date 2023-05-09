@@ -186,7 +186,7 @@ function startApp() {
 
     const btnClose = document.createElement('BUTTON');
     btnClose.classList.add('btn', 'btn-secondary', 'col');
-    btnClose.textContent = 'Cerrar';
+    btnClose.textContent = 'Close';
     btnClose.onclick = () => modal.hide();
 
     modalFooter.appendChild(btnFavorite);
