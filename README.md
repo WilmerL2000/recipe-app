@@ -3,9 +3,9 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <h1 align="center">Recipe Finder</h1>
-    <img src="https://res.cloudinary.com/wils09/image/upload/v1683667862/GitHub/recipe-app/main_x230n9.png" width="100%" >
+    <img src="https://res.cloudinary.com/wils09/image/upload/v1683668921/GitHub/recipe-app/home_gk3ani.png" width="100%" >
   <p align="center">
-    <a href="https://tiktok-clone-app-w.vercel.app/" target="_blank">Web Page</a>
+    <a href="https://recipe-app-search.vercel.app/index.html" target="_blank">Web Page</a>
   </p>
 </div>
 
@@ -45,11 +45,13 @@
 
 ## About The Project
 
-As its name says, this project is a clone of TikTok, which has some of the most outstanding features and functionality of the original application.
+A simple application to filter prescriptions by certain categories and see information about each recipe.
 
 ### Features
 
-- Sign in with Google account.
+- Search recipes by categories.
+- See information on each recipe such as steps to follow and ingredients.
+- Save and remove recipes from favorites.
 
 ### Tech Stack
 
@@ -82,20 +84,12 @@ As its name says, this project is a clone of TikTok, which has some of the most 
 
 <div align="center">
   <div>
-    <h3>User Profile</h3>
-    <img src="https://res.cloudinary.com/wils09/image/upload/v1682492959/GitHub/tiktok-clone/profile_pxvy2w.png" width="100%" >
+    <h3>See recipe</h3>
+    <img src="https://res.cloudinary.com/wils09/image/upload/v1683668922/GitHub/recipe-app/recipe_a7nvsr.png" width="100%" >
   </div>
   <div>
-    <h3>Video Detail</h3>
-    <img src="https://res.cloudinary.com/wils09/image/upload/v1682492959/GitHub/tiktok-clone/detail_ks5viu.png" width="100%" >
-  </div>
-  <div>
-    <h3>Upload & Post Video</h3>
-    <img src="https://res.cloudinary.com/wils09/image/upload/v1682492958/GitHub/tiktok-clone/upload_ojaces.png" width="100%" >
-  </div>
-  <div>
-    <h3>Search</h3>
-    <img src="https://res.cloudinary.com/wils09/image/upload/v1682492958/GitHub/tiktok-clone/search_io2tla.png" width="100%" >
+    <h3>Favorites</h3>
+    <img src="https://res.cloudinary.com/wils09/image/upload/v1683668921/GitHub/recipe-app/favorites_kwu8vw.png" width="100%" >
   </div>
 </div>
 
@@ -103,10 +97,7 @@ As its name says, this project is a clone of TikTok, which has some of the most 
 
 <div align="center">
   <div>
-    <img src="https://res.cloudinary.com/wils09/image/upload/v1682492960/GitHub/tiktok-clone/mobile1_xgpdfp.png" width="100%" >
-  </div>
-  <div>
-    <img src="https://res.cloudinary.com/wils09/image/upload/v1682492959/GitHub/tiktok-clone/mobile2_apjiyi.png" width="100%" >
+    <img src="https://res.cloudinary.com/wils09/image/upload/v1683669202/GitHub/recipe-app/mobile_v7bzl0.png" width="100%" >
   </div>
 </div>
 
@@ -122,7 +113,7 @@ _Follow the instructions below_
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/WilmerL2000/tiktok-clone-app.git
+   git clone https://github.com/WilmerL2000/recipe-app.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
